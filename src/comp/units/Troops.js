@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import IMGMAP from '../data/imgmap'
-import UNITS from '../data/units'
+import IMGMAP from '../../data/imgmap'
+import UNITS from '../../data/units'
 
 class Troops extends Component{
 

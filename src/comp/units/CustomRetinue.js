@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import UNITS from '../data/units'
-import IMGMAP from '../data/imgmap'
+import UNITS from '../../data/units'
+import IMGMAP from '../../data/imgmap'
 
 class CustomRetinue extends Component{
     state={

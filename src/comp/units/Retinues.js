@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import IMGMAP from '../data/imgmap'
+import IMGMAP from '../../data/imgmap'
 //import RETINUES from '../data/retinues'
 
 class Retinues extends Component{
