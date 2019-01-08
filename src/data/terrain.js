@@ -1,7 +1,10 @@
-export var TERRAINS = {'forest':false,
-                 'hills':false,
-                 'woods':false,
-                 'mountain':false,
-                 'marsh':false,
-                 'jungle':false,
-                 'desert':false};
+let TERRAINS = ['forest',
+                 'hills',
+                 'woods',
+                 'mountain',
+                 'marsh',
+                 'jungle',
+                 'desert'];
+
+
+export default TERRAINS

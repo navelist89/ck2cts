@@ -109,7 +109,8 @@ class UnitComp extends Component {
   
     componentDidUpdate(prevProps, prevState, snapshot) {
       if(prevState.total_count!==this.state.total_count){
-        console.log(this.state);
+        //console.log(this.state);
+        this.props.action(this.state.total_count);
       }
     }
     render() {
