@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   handleAllPost = ()=>{
-    console.log(this.state);
+    //console.log(this.state);
   }
   
   render() {
