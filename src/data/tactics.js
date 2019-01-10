@@ -615,7 +615,9 @@ var TACTICS = [
 		"duration": 2,
 		"type": "Charge",
 		"phase": "Skirmish",
-		"eligibility": "days==3",
+		"toMelee": true,
+		"days":3,
+		"eligibility": "false",
 		"weight": 1
 	},
 	{
@@ -623,7 +625,9 @@ var TACTICS = [
 		"duration": 6,
 		"type": "Charge",
 		"phase": "Skirmish",
-		"eligibility": "days==10",
+		"toMelee": true,
+		"days":10,
+		"eligibility": "",
 		"weight": 3,
 		"effect": [
 			[
@@ -648,7 +652,9 @@ var TACTICS = [
 		"duration": 6,
 		"type": "Charge",
 		"phase": "Skirmish",
-		"eligibility": "days==10",
+		"toMelee": true,
+		"days":10,
+		"eligibility": "true",
 		"weight": 10,
 		"modifiers": [
 			[
@@ -687,7 +693,9 @@ var TACTICS = [
 		"duration": 10,
 		"type": "Charge",
 		"phase": "Skirmish",
-		"eligibility": "days==10 && (WE>=0.01*ALL || HCA >= 0.2)",
+		"toMelee": true,
+		"days":10,
+		"eligibility": "(WE>=0.01*ALL || HCA >= 0.2)",
 		"weight": 2,
 		"modifiers": [
 			[
@@ -1181,7 +1189,9 @@ var TACTICS = [
 		"duration": 6,
 		"type": "Charge",
 		"phase": "Skirmish",
-		"eligibility": "days==10 && (general.wroth || general.aggressive)",
+		"toMelee": true,
+		"days":10,
+		"eligibility": "(general.wroth || general.aggressive)",
 		"weight": 10,
 		"modifiers": [
 			[
@@ -1320,7 +1330,9 @@ var TACTICS = [
 		"duration": 6,
 		"type": "Charge",
 		"phase": "Skirmish",
-		"eligibility": "days==10 && general.cruel",
+		"toMelee": true,
+		"days":10,
+		"eligibility": " general.cruel",
 		"weight": 10,
 		"modifiers": [
 			[

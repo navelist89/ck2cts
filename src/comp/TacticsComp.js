@@ -13,6 +13,7 @@ function filterByElig(){
     }
     return filt;
 }
+
 class TacticsComp extends Component{
 
     state={}
